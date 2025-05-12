@@ -1,17 +1,17 @@
 {
-    "name": "bvtterfly/laravel-circuit-breaker",
+    "name": "hadinem/circuit-breaker",
     "description": "Laravel circuit breaker package",
     "keywords": [
         "bvtterfly",
         "laravel",
         "laravel-circuit-breaker"
     ],
-    "homepage": "https://github.com/bvtterfly/laravel-circuit-breaker",
+    "homepage": "https://github.com/hadinem/laravel-circuit-breaker-bv",
     "license": "MIT",
     "authors": [
         {
-            "name": "ARI",
-            "email": "thearihdrn@gmail.com",
+            "name": "hadi",
+            "email": "h.nemati70@gmail.com",
             "role": "Developer"
         }
     ],
