@@ -116,6 +116,12 @@ class CircuitBreaker
 
     public function markSuccess(): void
     {
+          if (! $this->isHalfOpen()) {
+            $this->reset();
+
+            return;
+        }
+        
         $this->incrementSuccesses();
 
         if ($this->reachedSuccessThreshold()) {
